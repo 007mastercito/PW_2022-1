@@ -1,0 +1,62 @@
+<!--CONTROL + SHIFT + P = Abrir LIVE SERVER -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+</head>
+<body>
+    <!-- --------------Alineacion en bloque (block)----------------->
+    <div>
+        Caja 1
+    </div>
+    <div>
+        Caja 2
+    </div>
+
+    <!-------------------Alineacion en linea------------------------->
+    <span>
+        etiqueta 1
+    </span>
+    <span>
+        etiqueta 2 
+    </span>
+
+    <!------------------Caracteres de escape------------------------->
+    <div>
+        [ó o &oacute;] (tildes con caracteres de escape)
+    </div>
+    <div>
+        espa &nbsp; cioooo (espacios con caracteres de escape)
+    </div>
+
+    <!------------------URL a links externos------------------------->
+    <p>
+        <a href="https://ulima.edu.pe" target="_blank"> Universidad de lima</a>
+    </p>
+
+    <!---------------------Ruteo--------------------------->
+    <p id="parrafo0">
+        <!--Absoluto-->
+        <a href="/prueba.html"> Prueba</a>
+        <a href="/directorio/prueba2.html"> Prueba</a>
+        <hr>
+        <!--Relativo-->
+        <a href="./prueba.html">Prueba</a>
+        <a href="./directorio/prueba2.html"> Prueba 2</a>
+        <img src="./imagenes/logo.png">
+    
+    
+        <p id="parrafo1">
+        <select multiple="true">
+            <option value="">Elem1</option>
+            <option value="">Elem2</option>
+            <option value="">Elem3</option>
+            <option value="">Elem4</option>
+        </select>
+        <textarea></textarea>
+        <button type="button">Guardar</button>
+    </p>
+
+</body>
+</html>

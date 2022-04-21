@@ -1,0 +1,20 @@
+h1 {
+    background-color:aquamarine;
+    color: black;
+}
+h2 {
+    background-color: aqua !important;
+}
+/*el "#" se utiliza para los id*/
+#titulo_dos {
+    background-color: blueviolet;
+    color: orange;
+}
+/*el "." se usa para los class*/
+.grupo1 {
+    font-size: 60px;
+    display: none;
+}
+a:visited {
+    color: aqua;
+}
