@@ -8,60 +8,104 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="calculadora.css">
+    <script src="calculadora.js"></script>
 </head>
 <body class="container">
-    <input class="form-control" type="text">
+    <input id="txt_numeros" class="form-control" type="text" value="0">
     <div class="row">
         <div class="col">
-            <button class="btn btn-dark boton" type="button">7</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(7)">
+            7
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">8</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(8)">
+            8
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">9</button>
+            <button class="btn btn-dark boton" type="button" 
+            onclick="botonDigitalOnClick(9)">
+            9
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">+</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonOperacionOnClick('+')">
+                +
+            </button>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <button class="btn btn-dark boton" type="button">4</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(4)">
+            4
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">5</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(5)">
+            5
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">6</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(6)">
+            6
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">-</button>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col">
-            <button class="btn btn-dark boton" type="button">1</button>
-        </div>
-        <div class="col">
-            <button class="btn btn-dark boton" type="button">2</button>
-        </div>
-        <div class="col">
-            <button class="btn btn-dark boton" type="button">3</button>
-        </div>
-        <div class="col">
-            <button class="btn btn-dark boton" type="button">X</button>
+            <button class="btn btn-dark boton" type="button"
+            >
+            -
+        </button>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <button class="btn btn-dark boton" type="button">C</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(1)">
+            1
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">0</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(2)">
+            2
+        </button>
         </div>
         <div class="col">
-            <button class="btn btn-dark boton" type="button">=</button>
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(3)">
+            3
+        </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-dark boton" type="button"
+            >
+            X
+        </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonOperacionOnClick('C')">
+            C
+        </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonDigitalOnClick(0)">
+            0
+        </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-dark boton" type="button"
+            onclick="botonOperacionOnClick('=')">=</button>
         </div>
         <div class="col">
             <button class="btn btn-dark boton" type="button">/</button>
