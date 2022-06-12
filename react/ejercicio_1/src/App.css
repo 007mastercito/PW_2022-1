@@ -1,0 +1,32 @@
+.App {
+    background-color: #282D35;
+}
+
+.titulo {
+    color: #61DAFB;
+}
+
+.logo{
+    height: 30px;
+    margin-right: 7px;
+}
+
+nav {
+    height: 90px;
+    display: grid;
+    align-items: center;
+}
+
+li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
+}
+
+main {
+    background-image: url("./Images/react-icon-small.png");
+    background-repeat: no-repeat;
+    background-size: 360px;
+    background-position: right 0%;
+    height: 24.5cm;
+}
+
