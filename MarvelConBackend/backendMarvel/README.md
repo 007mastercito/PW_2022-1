@@ -25,3 +25,5 @@ en terminal: npm install nodemon --save-dev
 
 *ahora para correr: npm run start:dev
 es casi como un Go Live
+
+*npm install sequelize pg pg-hstore --save
